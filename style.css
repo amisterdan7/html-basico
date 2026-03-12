@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #bedbd8;
+    margin: 0;
+    padding: 20px;
+}
+
+.cabecalho{
+    background-color: #b8d2d8;
+    color: #0800ed;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #0800ed;
+}
+
+.navegacao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: #0800ed;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #030130;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #b8d2d8;
+    padding: 15px;
+    
+}
+
+.rodape{
+    margin-top: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: #0800ed;
+    font-size: 14px;
+}
